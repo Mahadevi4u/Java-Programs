@@ -1,7 +1,7 @@
 
 class Counter{
 	int count;
-	public void incr() {
+	public synchronized void incr() {
 		for(int i=0;i<1000;i++) {
 		count++;
 		
